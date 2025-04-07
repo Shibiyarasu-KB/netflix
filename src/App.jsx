@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './Home';
-import TVShows from './TVShows';
-import Movies from './pages/Movies';
-import MyList from './pages/MyList';
+import Navbar from './components/Navbar.jsx';
+import Home from './pages/Home.jsx';
+import TVShows from './pages/TVShows.jsx';
+import Movies from './pages/Movies.jsx';
+import MyList from './pages/MyList.jsx';
 
 const App = () => {
   return (
